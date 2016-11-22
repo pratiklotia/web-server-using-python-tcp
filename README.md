@@ -8,6 +8,9 @@ Python programs executable in v3.1 and higher versions (done on v3.4)
 
 Usage (on Command Prompt): webServer.py
 
+On browser - type: localhost:"port-number"/"enter-filename-or-html-page"
+eg. localhost:9994/index.html
+
 Default Port number set in configuration file: 9994 (check configuration file)
 Note:
 1. test file - (testclient.py) for Performance Evaluation included. It contains sleep function (commented) to check
@@ -63,3 +66,6 @@ It will call Head_Cont function to send header and data respectively
 PostData:
 Will open /post.html file by default to edit it. This can be changed and assigned dynamically.
 Post edits the html file with the data obtained in request and calls Head_Cont function to send header and data.
+
+For heavy html files, the page will load very slowly. A sample document root directory and contents are added.
+Check the heavy file using: localhost:9994/index2.html
