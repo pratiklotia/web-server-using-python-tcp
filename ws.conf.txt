@@ -1,0 +1,19 @@
+#listening port number
+ListenPort 9994
+#document root
+DocumentRoot "C:\Users\prati\workspace\Data Communications Assignment 2\echoserver2\document root directory"
+#Default web page
+DirectoryIndex index.html index.htm index.ws customdefaultfile.html
+#content-Type
+ContentType .html text/html
+ContentType .htm text/html
+ContentType .txt text/plain
+ContentType .png image/png
+ContentType .gif image/gif
+ContentType .jpg image/jpeg
+ContentType .jpeg image/jpeg
+ContentType .css text/css
+ContentType .js application/javascript
+#connection timeout
+KeepaliveTime 10 
+"Remove-this-line------Save-this-file-in-the-same-directory-as-the-webserver-file"
