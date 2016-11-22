@@ -17,7 +17,7 @@ whether timeout (persistence of connection) happens on server properly.
 4. For checking HTTP POST request:
 simply in your browser, enter:
 
-data:text/html,<body onload="document.body.firstChild.submit()"><form method="post" action="http://localhost:9994/"><input value="hugh.mahn@person.com" name="email">
+data:text/html, "<"body onload="document.body.firstChild.submit()"">"<form method="post" action="http://localhost:9994/"><input value="hugh.mahn@person.com" name="email">
 <input value="passwordsavedinhistory" name="password">
 
 The text in 'value' and 'name' can be edit. By this way, server receives POST request. By default, it will edit a 
