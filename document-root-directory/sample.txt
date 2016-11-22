@@ -1,0 +1,17 @@
+<HTML>
+<HEAD>
+<TITLE>LOTIA PRATIK</TITLE>
+</HEAD>
+<body>
+<HR>
+<H1>This is a Pratik</H1>
+<H2>This is a Lotia </H2>
+I am Founding Partner of VenTech and recognized as an innovator by Govt. of India
+Send me mail at <a href="mailto:pratik.lotia@colorado.edu">
+pratik.lotia@colorado.edu</a>.
+<P> I am in Telecommunications!
+<P> <B>This is a new paragraph!</B>
+<BR> <B><I>This is a new sentence without a paragraph break, in bold italics.</I></B>
+<HR>
+</BODY>
+</HTML>
